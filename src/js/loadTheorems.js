@@ -1,9 +1,7 @@
-var pathToTheorems = "../theorems.json";
+var pathToTheorems = "../data/theorems.json";
 
 function showTheorems() {
-	console.log("fff");
-	jQuery.get(pathToTheorems, function(data) {
-    	theorems = JSON.parse(data);
-    	jQuery('#content').text = theorems;
+	$.getJSON(pathToTheorems, function(data) {
+		jQuery('#content').text(data);
 	});
 }
