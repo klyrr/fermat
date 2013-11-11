@@ -1,0 +1,12 @@
+{
+	"theorems" : [
+		{
+			"name": "Fundamentalsatz der Analysis",
+			"definition": "\int_{a}^{b}f(x)\,\mathrm{d}x=F(b)-F(a)."
+		},
+		{
+			"name": "Riemann-Integral",
+			"definition": "O(Z):=\sum_{k=1}^n(x_k-x_{k-1})\cdot\sup_{x_{k-1}<x<x_k}f(x)"
+		}
+	]
+}
